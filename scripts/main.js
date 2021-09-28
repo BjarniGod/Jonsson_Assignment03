@@ -30,7 +30,7 @@ const question1 = (myNumber) => {
   const question2 = (myValue) => {
     let myLang;
     /////// write your IF statement below this line /////////
-    if(myValue.lenght() == 10)
+    if(myValue.lenght == 10)
       myLang = "JavaScript";
     else
       myLang = "Python"
@@ -47,9 +47,9 @@ const question1 = (myNumber) => {
   const question3 = (myValue) => {
     let myLang;
     /////// write your IF statement below this line /////////
-    if(myValue.lenght() == 10)
+    if(myValue.lenght == 10)
       myLang = "JavaScript";
-    else if(myValue.lenght() > 3)
+    else if(myValue.lenght > 3)
       myLang = "PHP";
     else
       myLang = "Python"
